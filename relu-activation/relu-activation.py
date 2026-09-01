@@ -5,4 +5,4 @@ def relu(x) -> np.ndarray:
     Returns a NumPy array with the same shape as x.
     """
     arr = np.asarray(x, dtype=np.float32)
-    return np.array(np.maximum(0.0, x))
+    return np.asarray(np.maximum(0.0, x))
